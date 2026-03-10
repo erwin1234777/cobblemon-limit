@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "pokelantern:poke_lantern" },
+    { "item": "minecraft:ghast_tear" }
+  ],
+  "result": { "item": "pokelantern:curio_poke_lantern", "count": 1 }
+}
