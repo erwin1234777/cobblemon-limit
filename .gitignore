@@ -1,0 +1,13 @@
+build/
+.gradle/
+run/
+run-data/
+poke/
+out/
+*.iml
+.idea/
+.classpath
+.project
+.settings/
+bin/
+src/generated/
