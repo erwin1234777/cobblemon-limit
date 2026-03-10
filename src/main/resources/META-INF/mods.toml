@@ -1,0 +1,44 @@
+modLoader="kotlinforforge"
+loaderVersion="[4,)"
+license="${mod_license}"
+
+[[mods]]
+    modId="${mod_id}"
+    version="${mod_version}"
+    displayName="${mod_name}"
+    description='''${mod_description}'''
+
+[[dependencies.pokelantern]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pokelantern]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pokelantern]]
+    modId="kotlinforforge"
+    mandatory=true
+    versionRange="[4.5.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pokelantern]]
+    modId="cobblemon"
+    mandatory=true
+    versionRange="[1.5.2,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.pokelantern]]
+    modId="curios"
+    mandatory=true
+    versionRange="[5.14.1,)"
+    ordering="NONE"
+    side="BOTH"

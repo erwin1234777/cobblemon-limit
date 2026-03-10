@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "EPE",
+        "ELE",
+        "BGB"
+    ],
+    "key": {
+        "E": {
+            "item": "minecraft:ender_pearl"
+        },
+        "P": {
+            "item": "minecraft:ghast_tear"
+        },
+        "L": {
+            "item": "minecraft:lantern"
+        },
+        "B": {
+            "item": "minecraft:blaze_rod"
+        },
+        "G": {
+            "item": "minecraft:gold_block"
+        }
+    },
+    "result": {
+        "item": "pokelantern:poke_lantern",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "hanging=false": {
+            "model": "pokelantern:block/poke_lantern"
+        },
+        "hanging=true": {
+            "model": "pokelantern:block/poke_lantern_hanging"
+        }
+    }
+}
